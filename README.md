@@ -14,10 +14,14 @@ Class Project #1
 - So I know if I am interested
 
 ### Meeting Location 
-```sh Starbucks near Perimeter Mall:  https://www.starbucks.com/store-locator/store/7816/perimeter-mall-4400-shford-dunwoody-road-perimeter-mall-atlanta-
+```sh 
+$ Starbucks near Perimeter Mall:  https://www.starbucks.com/store-locator/store/7816/perimeter-mall-4400-ashford-dunwoody-road-perimeter-mall-atlanta-
 ```
 
 ### APIs that will be used
-* [youtube API] : https://www.youtube.com/yt/dev/api-resources/
-* [songkick API]: https://www.songkick.com/
-* [googleMaps API]: https://cloud.google.com/maps-platform/]
+* youtube API : https://www.youtube.com/yt/dev/api-resources/
+* songkick API: https://www.songkick.com/
+* googleMaps API: https://cloud.google.com/maps-platform/]
+
+### New Technology
+foundation
