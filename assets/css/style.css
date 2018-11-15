@@ -9,6 +9,7 @@ body {
 
     background-color: whitesmoke; /* For browsers that do not support gradients */
     background-image: linear-gradient(white, slategray); /* Standard syntax (must be last) */
+    background-size: cover;
     
 }
 
