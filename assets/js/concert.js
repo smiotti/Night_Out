@@ -29,11 +29,12 @@ const displayEvent = function () {
                 <li><a href="${response.resultsPage.results.event[i].uri}" target="_blank"> ${response.resultsPage.results.event[i].displayName}</a></li>
                 </ul>`);
             }
-
+            
         });
-
+        $('#concerts').empty();
     });
     $('#search-location').val('');
+    
 }
 
 $('#button-location').on('click', displayEvent);
