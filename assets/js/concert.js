@@ -39,7 +39,7 @@ const displayEvent = function () {
     $.get(cityURL, function (response) {
         //get the city and find the metro id
         var metroID = response.resultsPage.results.location[0].metroArea.id;
-        var queryURL = `https://api.songkick.com/api/3.0/events.json?apikey=${songKey}&location=sk:${metroID}`;//&min_date=${minDate}&max_date=${maxDate}
+        var queryURL = `https://api.songkick.com/api/3.0/events.json?apikey=${songKey}&location=sk:${metroID}&min_date=${minDate}&max_date=${maxDate}`;//&min_date=${minDate}&max_date=${maxDate}
 
         // Creating an AJAX call for the specific stock button being clicked
         $.ajax({
@@ -80,6 +80,8 @@ const displayEvent = function () {
         $('#concerts').empty();
     });
     $('#search-location').val('');
+    $('#start-date').val('');
+    $('#end-date').val('');
     
     
 }
