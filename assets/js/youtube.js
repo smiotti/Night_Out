@@ -1,7 +1,7 @@
-/* $(document).ready(function () {
+$(document).ready(function () {
 
     var key = config.YOUTUBEKEY;
-    var searchName = theConcert;
+    var searchName = concertName;
     //var playlistId = 'RDEMHf2wypPGss7s18zIoO3rxQ';
     var URL = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=25&q=${searchName}&key=${key}`;   //https://www.googleapis.com/youtube/v3/playlistItems;
 
@@ -18,4 +18,4 @@
 
     });
 
-}); */
+});
