@@ -58,5 +58,3 @@ $('tspan').each(function(index) {
   })
 })
 
-
-

@@ -103,4 +103,3 @@ const displayEvent = function () {
 }
 
 $('#button-location').on('click', displayEvent);
-
