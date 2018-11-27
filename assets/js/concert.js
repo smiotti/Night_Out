@@ -20,8 +20,8 @@ const createEventCard = function(link, name) {
                             .addClass('card-img-top rounded-circle')
                             .attr('src', image)
                             .attr('alt', displayName);
-    const cardLink = $('<a>').attr('href', eventLink).html(`<h6> ${displayName}</h6>`);
-    const ytVid = $('<a>').attr('href', "#").attr('data-toggle',"modal").attr('data-name', displayName).attr('data-target',"#exampleModal").text('Video');
+    const cardLink = $('<a>').attr('href', eventLink).attr('target', '_blank').html(`<h6> ${displayName}</h6>`);
+    const ytVid = $('<a>').attr('href', "#").attr('data-toggle',"modal").attr('data-name', displayName).attr('data-target',"#exampleModal").addClass('ytvid').text('Video');
     //<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Video</button>
     cardBodyWrapper.append(cardBodyImage).append(cardLink);
     cardWrapper.append(cardBodyWrapper);
@@ -81,7 +81,7 @@ const displayEvent = function () {
                 $('#concerts').append(eventColumn);
                 
                 //get video in the modal by listening for the click
-                eventColumn.click(function(e) {
+                eventColumn.find('.ytvid').click(function(e) {
                     e.preventDefault();
                     const dataVal = $(e.target).data('name');
            
