@@ -37,7 +37,7 @@ body {
 }
 
 
-/* Styling for the Results box */    /* Need to settle on a background and then cleanup code!!! */
+/* Styling for the Results box */   
 .resultsBoxCards{
   border-color: darkgray;
   border-style: outset;
