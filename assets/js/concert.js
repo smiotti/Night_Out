@@ -13,7 +13,7 @@ const createEventCard = function(link, name) {
     const displayName = name;
     const image = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBh4-bZlSMiUlrYoHtSA8qQKR77emlzxmSyn4Jz4ZfcKn3tkR9Cg";
     // Creating a div to hold the event card
-    const colWrapper = $('<div>').addClass('col-sm-4');
+    const colWrapper = $('<div>').addClass('col');
     const cardWrapper = $('<div>').addClass('card cardStyle concerts');
     const cardBodyWrapper = $('<div>').addClass('card-body');
     const cardBodyImage = $('<img />')
